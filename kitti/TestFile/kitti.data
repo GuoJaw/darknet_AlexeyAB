@@ -1,0 +1,11 @@
+
+
+classes= 3
+
+train  = /home/gjw/darknet_AlexeyAB/kitti/train.txt  
+valid  = /home/gjw/darknet_AlexeyAB/kitti/test.txt   
+
+names = /home/gjw/darknet_AlexeyAB/kitti/TestFile/kitti.names
+
+backup = /home/gjw/darknet_AlexeyAB/kitti/backup
+results = /home/gjw/darknet_AlexeyAB/kitti/kitti_result

@@ -1,0 +1,5 @@
+/home/gjw/darknet_AlexeyAB/kitti/KITTIdevkit/KITTI/JPEGImages/000025.png
+/home/gjw/darknet_AlexeyAB/kitti/KITTIdevkit/KITTI/JPEGImages/000028.png
+/home/gjw/darknet_AlexeyAB/kitti/KITTIdevkit/KITTI/JPEGImages/000048.png
+/home/gjw/darknet_AlexeyAB/kitti/KITTIdevkit/KITTI/JPEGImages/000051.png
+/home/gjw/darknet_AlexeyAB/kitti/KITTIdevkit/KITTI/JPEGImages/000055.png
