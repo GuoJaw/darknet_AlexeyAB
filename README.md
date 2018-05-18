@@ -6,28 +6,14 @@
 https://github.com/AlexeyAB/darknet
 
 
-## Introduce： 此处引用原作者代码主要用于下面几种功能：
-     （1）添加了中文标签
-     （2）批量测试图像并保存
-     （3）测试mAP需要用到，faster-rcnn中的脚本
-
-## 添加中文标签
-     make_label.py
-           .tty
-
-## 测试图像和视频
+## Introduce： 
+	主要用于训练自己的数据集
+	测mAP
+	
+## 测试视频
       [1- 测试video]
-           ./darknet detector demo kitti/kitti.data kitti/yolov3_kitti.cfg  kitti/yolov3_kitti_final.weights kitti/test.avi -thresh 0.5
-
-      [2- 测试单张images]
-           ./darknet detect kitti/yolov3_kitti.cfg  kitti/yolov3_kitti_final.weights data/00001.jpg  -thresh 0.5
-
-      [3- 批量测试图像 ，并保存]    
-          （1）命令
-          . / darknet detector  test  kitti/kitti.data kitti/yolov3_kitti.cfg  kitti/yolov3_kitti_final.weights
-          （2）pic.txt保存着待测试图像的绝对路径
-          /home/gjw/darknet/kitti/Mydata/pic.txt
-         
+	./darknet detector demo kitti/TestFile/kitti.data  kitti/TestFile/yolov3_kitti.cfg  kitti/TestFile/yolov3_kitti_final.weights -c 0 -thresh 0.3  test.avi
+  
 ## 训练自己的数据集（以KITTI数据集为例）
 	【一】 制作KITTI格式数据集，将目录放在~/data/目录下，目录结构，见下：
 	KITTIdevkit
