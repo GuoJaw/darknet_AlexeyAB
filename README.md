@@ -2,7 +2,7 @@
 
 ##  darknet_AlexeyAB详述
 
-	克隆代码：git@github.com:GuoJaw/darknet_AlexeyAB.git
+	克隆代码：git clone https://github.com/GuoJaw/darknet_AlexeyAB
 
 ## Introduce： 
 	主要用于训练自己的数据集
