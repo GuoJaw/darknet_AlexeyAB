@@ -85,16 +85,9 @@
 
 =========================================
 
-## 1. 测试
-	（1）视频
+## 1. 测试视频
 	./darknet detector demo  kitti/TestFile/kitti.data  kitti/TestFile/yolov3_kitti.cfg  kitti/TestFile/yolov3_kitti_final.weights  kitti/TestFile/test.avi  -thresh 0.3 
 
-
-	（2）批量测试图像 ----> 只能原版代码，即： darknet-pjreddie
-		（1）命令
-		./darknet detector  test  kitti/TestFile/kitti.data  kitti/TestFile/yolov3_kitti.cfg  kitti/TestFile/yolov3_kitti_final.weights
-		（2）请输入：保存着待测试图像的绝对路径test.txt
-			/home/gjw/darknet_AlexeyAB/kitti/test.txt
 
 =========================================
 
